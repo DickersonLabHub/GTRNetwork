@@ -1,0 +1,14 @@
+EcoliTimeSeries1: norfloxacin_time_series 2004-03-24 Time-series data from a Norfloxacin perturbation. Samples from perturbed cultures were taken at 12, 24, 36, 48, and 60min. Unperturbed samples were taken at 0, 24, and 60min. 
+EcoliTimeSeries2: gentamicin_time_series  2007-12-01 time course gentamicin, spectinomycin, and control 
+EcoliTimeSeries3: antibiotic_time_series  2007-08-07 contains MG1655 time-series data with four antibiotics (ampicillin, kanamycin, norfloxacin, and spectinomycin) 
+EcoliTimeSeries4: rapid_acid_response 2008-02-26 Acid-Shifted Time Course of Gene Expression Profiles of Aerobically Grown Escherichia coli K-12 
+EcoliTimeSeriesx_avg: averaged replications.
+In the EcoliData.mat data file
+    RefLinks:Reference TF-Gene Links from RegulongDB6.4
+    TimeS1-TimeS4: Time Sereis data imported from EcoliTimeSeries1-EcoliTimeSeries4
+    TimeS1Ave-TimeS4Ave: Replication averaged data.
+    RefM: Reference Link Matrix mached with expression data.
+    GeneM: Gene Labels matched between Reference Links and expression data, for TS1M-TS4M, TS1MA-TS4MA and RefM
+    TFM: TF Labels matched for expression data
+    TS1M-TS4M: Gene matched expression data with RefM.
+    TS1MA-TS4MA: Replication averaged data for TS1M-TS4M

@@ -1,0 +1,10 @@
+GTRNetwork 1.2 Update (Dec. 2010) by Fu, Yao (Al)
+Directed TFA and links
+1. After calculating the value of TFA change, DirectTFA can predict the TFA change direction
+2. DirectLinks function use Directed TFA and gene exprssion data to predict regulatory direction of regulatory links
+3. GTRNetwork main code integrated DirectTFA and DirectLinks functions so the preidction have biological meaningful link directions
+GTRNetwork 1.2.1 Update (Jan. 2011) by Fu, Yao (Al)
+Update to fit the RegulonDB 7.0 data
+1. load functions modified to fit RegulonDB 7.0
+2. Output data structure of Autotest and AutotestS are changed to fit large scale output data
+3. Use function E2R instead of log2ratio to prepare log2 ratio of expression data.
